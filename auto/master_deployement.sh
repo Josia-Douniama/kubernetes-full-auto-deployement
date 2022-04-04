@@ -33,6 +33,7 @@ sudo bash -c "cat > /etc/docker/daemon.json"<<EOF
   },
   "storage-driver": "overlay2"
 }
+
 EOF
 
 # Restart docker
